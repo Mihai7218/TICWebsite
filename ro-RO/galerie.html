@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<title>Galerie - Cheia către UE</title>
+	<link rel="icon" href="./../media/EU-stars.svg">
+	<link href="./../style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<a class="link" href="./html.html">Pagina principală</a>
+		<a class="link" href="./countries.html">Țări</a>
+		<a class="link" href="./istoric.html">Istoric</a>
+		<a class="link" href="./institutii.html">Instituții</a>
+		<a class="active link" href="#">Galerie</a>
+		<a class="link" href="./about.html">Despre</a>
+		<a class="lang" href="./../en-GB/html.html"><img class="flag" src="./../media/UK-flag.svg"></a>
+		<a id="activeLang" class="lang" href="#"><img class="flag" src="./../media/RO-flag.svg"></a>
+	</nav>
+	<div class="container">
+	<!-- credits: https://codepen.io/mayurbirle/pen/eEevBZ/ -->
+	<input type="radio" id="i1" name="images" checked />
+	<input type="radio" id="i2" name="images" />
+	<input type="radio" id="i3" name="images" />
+	<input type="radio" id="i4" name="images" />
+	<input type="radio" id="i5" name="images" />	
+	
+	<div class="slide_img" id="one">			
+			
+			<img src="./../media/BE-img.jpg">
+			
+				<label class="prev" for="i5"><span>&#10094;</span></label>
+				<label class="next" for="i2"><span>&#10095;</span></label>	
+		
+	</div>
+	
+	<div class="slide_img" id="two">
+		
+			<img src="./../media/RO-img.jpg" >
+			
+				<label class="prev" for="i1"><span>&#10094;</span></label>
+				<label class="next" for="i3"><span>&#10095;</span></label>
+		
+	</div>
+			
+	<div class="slide_img" id="three">
+			<img src="./../media/suedia2.jpg">	
+			
+				<label class="prev" for="i2"><span>&#10094;</span></label>
+				<label class="next" for="i4"><span>&#10095;</span></label>
+	</div>
+
+	<div class="slide_img" id="four">
+			<img src="./../media/CY-img.jpg">	
+			
+				<label class="prev" for="i3"><span>&#10094;</span></label>
+				<label class="next" for="i5"><span>&#10095;</span></label>
+	</div>
+
+	<div class="slide_img" id="five">
+			<img src="./../media/EE-img2.jpg">	
+			
+				<label class="prev" for="i4"><span>&#10094;</span></label>
+				<label class="next" for="i1"><span>&#10095;</span></label>
+
+	</div>
+
+	<div id="nav_slide">
+		<label for="i1" class="dots" id="dot1"></label>
+		<label for="i2" class="dots" id="dot2"></label>
+		<label for="i3" class="dots" id="dot3"></label>
+		<label for="i4" class="dots" id="dot4"></label>
+		<label for="i5" class="dots" id="dot5"></label>
+	</div>
+		
+</div>
+</body>
+</html>
