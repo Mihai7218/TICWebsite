@@ -118,6 +118,9 @@ p {
 .s20{
 	font-size: 20px;
 }
+.s24{
+	font-size: 24px;
+}
 
 .wd100{
 	min-width: 300px;
@@ -340,7 +343,7 @@ body, html{
 .sideBar {
 	position: fixed;
 	top: 20%;
-	right:15%;
+	left:75%;
 }
 
 .grid3{
@@ -354,9 +357,56 @@ body, html{
 .inlineBlock{
        display: inline-block;
 }
+.backToTop{
+	position: sticky;
+	bottom: 5%;
+	left: 90%;
+}
+
+.backToTop img {
+	width:  32px;
+	height: auto;
+}
 .center{
-       display: block;
-	   margin-left: auto;
-       margin-right: auto;
-       width: 50%
+       display:block;
+       margin-left:auto;
+       margin-right:auto;
+	   width: 50%;
+}
+img.right{
+      float:right;
+}
+.centrated{
+      whidth=auto;
+      height=auto;
+      text-align: center;
+}
+.logo {
+    width: 125px;
+    height: auto;
+}
+
+.floatLeft { float: left; }
+
+.floatRight { float: right; }
+img.smallPhoto1{ 
+        width:630px;
+        height:464px;
+}
+img.smallPhoto2{ 
+        width:70%;
+        height:auto;
+}
+.s20{
+   font-size:18px;
+}
+.grid4 {
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template: auto auto / 2fr 1fr;
+  grid-gap: 15px 20px;
+}
+.fontMisto{
+       font-family: 'Jost', sans-serif;
 }
