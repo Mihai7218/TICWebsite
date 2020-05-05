@@ -111,7 +111,7 @@ abbr {
 	text-decoration: none;
 }
 p {
-	font-family: Arial;
+    font-family: 'Jost', sans-serif;
 	text-align: justify;
 }
 
@@ -119,7 +119,7 @@ p {
 	font-size: 20px;
 }
 .s24{
-	font-size: 24px;
+	font-size: 22px;
 }
 
 .wd100{
@@ -180,6 +180,13 @@ p {
   width: auto;
   display: grid;
   grid-template: auto / 4fr 1fr;
+  grid-gap: 10px 15px;
+}
+.grid5 {
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr;
   grid-gap: 10px 15px;
 }
 .statBar {
@@ -397,8 +404,8 @@ img.smallPhoto2{
         width:70%;
         height:auto;
 }
-.s20{
-   font-size:18px;
+.s30{
+   font-size:30px;
 }
 .grid4 {
   height: auto;
